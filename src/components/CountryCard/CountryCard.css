@@ -1,0 +1,18 @@
+.country-card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid rgba(14, 14, 44, 0.05);
+  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1),
+    0px 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.country-card__img {
+  width: 280px;
+  height: 187px;
+  order: -1;
+  border-radius: 8px;
+}
