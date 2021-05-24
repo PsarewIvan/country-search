@@ -14,17 +14,6 @@ const getCountries = createAsyncThunk('countries/getCountries', async () => {
 export const counterSlice = createSlice({
   name: 'countries',
   initialState,
-  reducers: {
-    // increment: (state) => {
-    //   state.value += 1;
-    // },
-    // decrement: (state) => {
-    //   state.value -= 1;
-    // },
-    // incrementByAmount: (state, action) => {
-    //   state.value += action.payload;
-    // },
-  },
   extraReducers: (builder) => {
     builder
       .addCase(getCountries.pending, (state) => {
@@ -38,7 +27,4 @@ export const counterSlice = createSlice({
 });
 
 export { getCountries };
-export const {
-  // increment, decrement, incrementByAmount
-} = counterSlice.actions;
 export default counterSlice.reducer;
