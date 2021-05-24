@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import './App.css';
 import Preloader from './components/Preloader/Preloader';
+import Countries from './components/Countries/Countries';
 import { getCountries } from './app/slices/countrySlice';
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
       <div className="app__header">
         <h1 className="app__title">Search your country</h1>
       </div>
-      <div className="app__content">{isLoading && <Preloader />}</div>
+      <div className="app__content">
+        {isLoading ? <Preloader /> : <Countries />}
+      </div>
     </div>
   );
 }
