@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/country-search/static/css/main.b0e70dba.chunk.css",
+    "main.js": "/country-search/static/js/main.e8ca6911.chunk.js",
+    "main.js.map": "/country-search/static/js/main.e8ca6911.chunk.js.map",
+    "runtime-main.js": "/country-search/static/js/runtime-main.f79f3288.js",
+    "runtime-main.js.map": "/country-search/static/js/runtime-main.f79f3288.js.map",
+    "static/js/2.a7761fca.chunk.js": "/country-search/static/js/2.a7761fca.chunk.js",
+    "static/js/2.a7761fca.chunk.js.map": "/country-search/static/js/2.a7761fca.chunk.js.map",
+    "index.html": "/country-search/index.html",
+    "static/css/main.b0e70dba.chunk.css.map": "/country-search/static/css/main.b0e70dba.chunk.css.map",
+    "static/js/2.a7761fca.chunk.js.LICENSE.txt": "/country-search/static/js/2.a7761fca.chunk.js.LICENSE.txt",
+    "static/media/Pulse-1s-200px.1adeb5e0.svg": "/country-search/static/media/Pulse-1s-200px.1adeb5e0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f79f3288.js",
+    "static/js/2.a7761fca.chunk.js",
+    "static/css/main.b0e70dba.chunk.css",
+    "static/js/main.e8ca6911.chunk.js"
+  ]
+}
